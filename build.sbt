@@ -22,7 +22,7 @@ publishMavenStyle := true
 
 licenses += ("MIT", url("http://opensource.org/licenses/MIT"))
 
-homepage := Some(url("https://github.com/gilt/gfc-semver"))
+homepage := Some(url("https://github.com/gfc-collective/gfc-semver"))
 
 publishTo := {
   val nexus = "https://oss.sonatype.org/"
@@ -38,8 +38,8 @@ pomIncludeRepository := { _ => false }
 
 pomExtra := (
   <scm>
-    <url>https://github.com/gilt/gfc-semver.git</url>
-    <connection>scm:git:git@github.com:gilt/gfc-semver.git</connection>
+    <url>https://github.com/gfc-collective/gfc-semver.git</url>
+    <connection>scm:git:git@github.com:gfc-collective/gfc-semver.git</connection>
   </scm>
   <developers>
     <developer>
@@ -49,4 +49,3 @@ pomExtra := (
     </developer>
   </developers>
 )
-
