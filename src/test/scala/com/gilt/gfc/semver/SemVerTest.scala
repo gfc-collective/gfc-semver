@@ -1,8 +1,9 @@
 package com.gilt.gfc.semver
 
-import org.scalatest.{FunSuite, Matchers}
+import org.scalatest.funsuite.AnyFunSuite
+import org.scalatest.matchers.should.Matchers
 
-class SemVerTest extends FunSuite with Matchers {
+class SemVerTest extends AnyFunSuite with Matchers {
 
   test("Intrinsic equality") {
     assert(SemVer("1.2.3") === SemVer("1.2.3"))
