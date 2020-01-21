@@ -1,6 +1,6 @@
 name := "gfc-semver"
 
-organization := "com.gilt"
+organization := "org.gfccollective"
 
 scalaVersion := "2.12.10"
 

@@ -1,4 +1,4 @@
-package com.gilt.gfc.semver
+package org.gfccollective.semver
 
 object SemVer {
   def apply(version: String): SemVer = {
