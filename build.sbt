@@ -2,16 +2,16 @@ name := "gfc-semver"
 
 organization := "org.gfccollective"
 
-scalaVersion := "2.12.10"
+scalaVersion := "2.13.1"
 
-crossScalaVersions := Seq(scalaVersion.value, "2.13.1")
+crossScalaVersions := Seq(scalaVersion.value, "2.12.10")
 
 scalacOptions += "-target:jvm-1.8"
 
 javacOptions ++= Seq("-source", "1.8", "-target", "1.8")
 
 libraryDependencies ++= Seq(
-  "org.scalatest" %% "scalatest" % "3.1.0" % Test
+  "org.scalatest" %% "scalatest" % "3.1.0" % Test,
 )
 
 releaseCrossBuild := true
