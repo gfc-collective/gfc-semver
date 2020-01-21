@@ -16,4 +16,6 @@ libraryDependencies += "org.gfccollective" %% "gfc-semver" % "1.0.0"
 For Maven and other build tools, you can visit [search.maven.org](http://search.maven.org/#search%7Cga%7C1%7Corg.gfccollective).
 (This search will also list other available libraries from the GFC Collective.)
 
-## Contents and Example Usage
+## License
+
+Licensed under the Apache License, Version 2.0: http://www.apache.org/licenses/LICENSE-2.0
