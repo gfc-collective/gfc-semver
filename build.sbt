@@ -1,3 +1,5 @@
+import scoverage.ScoverageKeys
+
 name := "gfc-semver"
 
 organization := "org.gfccollective"
@@ -13,6 +15,10 @@ javacOptions ++= Seq("-source", "1.8", "-target", "1.8")
 libraryDependencies ++= Seq(
   "org.scalatest" %% "scalatest" % "3.2.0" % Test,
 )
+
+ScoverageKeys.coverageMinimum := 77.0
+
+ScoverageKeys.coverageFailOnMinimum := true
 
 releaseCrossBuild := true
 
