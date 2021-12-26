@@ -20,10 +20,6 @@ ScoverageKeys.coverageMinimumStmtTotal := 77.0
 
 ScoverageKeys.coverageFailOnMinimum := true
 
-releaseCrossBuild := true
-
-releasePublishArtifactsAction := PgpKeys.publishSigned.value
-
 publishMavenStyle := true
 
 licenses += ("MIT", url("http://opensource.org/licenses/MIT"))
@@ -38,7 +34,7 @@ publishTo := {
     Some("releases"  at nexus + "service/local/staging/deploy/maven2")
 }
 
-publishArtifact in Test := false
+Test / publishArtifact := false
 
 pomIncludeRepository := { _ => false }
 
