@@ -13,7 +13,7 @@ scalacOptions += "-target:jvm-1.8"
 javacOptions ++= Seq("-source", "1.8", "-target", "1.8")
 
 libraryDependencies ++= Seq(
-  "org.scalatest" %% "scalatest" % "3.2.12" % Test,
+  "org.scalatest" %% "scalatest" % "3.2.14" % Test,
 )
 
 ScoverageKeys.coverageMinimumStmtTotal := 77.0
